@@ -1,0 +1,40 @@
+.phonedetails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: calc(100% - 100px);
+  background-color: #fff;
+  margin: 40px auto;
+  max-width: 1366px;
+  box-sizing: border-box;
+}
+.phonedetails__color {
+  font-size: 16px;
+  padding: 8px 0px;
+}
+
+.phonedetails__imagecontainer {
+  padding: 32px;
+  flex: 1;
+  max-width: 440px;
+}
+.phonedetails__image {
+  width: 300px;
+  height: 500px;
+}
+.phonedetails__infocontainer {
+  padding: 32px;
+  flex: 3;
+}
+
+.phonedetails__name {
+  font-size: 32px;
+  padding-bottom: 8px;
+}
+.phonedetails__price {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}

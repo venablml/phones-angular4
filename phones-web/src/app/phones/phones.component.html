@@ -1,0 +1,14 @@
+<div class='spinner__container' *ngIf="isFetching; else phonesTemplate">
+  <img src='../assets/images/spinner.gif' class='spinner' />
+</div>
+
+<ng-template #phonesTemplate>
+  <div class='phones'>
+    <div class='phones__header'>FREE SHIPPING ON YOUR ORDER!</div>
+    <div class='phone' *ngFor="let phone of phones" [class.selected]="phone === selectedPhone" tabindex="0">
+      <img class='phone__image' src={{phone.image}} alt={{phone.model}} (click)="selectPhone(phone.id)" />
+      <div class='phone__name' tabindex="0">{{phone.brand}} {{phone.model}}</div>
+      <div class='phone__price'><span>Price:</span> <span style="font-size:16px">${{phone.price}}</span></div>
+    </div>
+  </div>
+</ng-template>

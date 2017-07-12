@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'PT_Sans';
+  src: url('./assets/fonts/PT_Sans-Web-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'PT_Sans';
+  src: url('./assets/fonts/PT_Sans-Web-Bold.ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'PT_Sans';
+  src: url('./assets/fonts/PT_Sans-Web-BoldItalic.ttf');
+  font-style: italic;
+  font-weight: 700;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #f4f4f4;
+  margin: 0;
+  font-family: 'PT_Sans', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,11 @@
+<div class='phonedetails'>
+  <div class='phonedetails__imagecontainer'>
+    <img class='phonedetails__image' src={{phone.image}} alt={{phone.model}} (click)="selectPhone(phone.id)" />
+  </div>
+  <div class='phonedetails__infocontainer'>
+    <div class='phonedetails__name'>{{phone.brand}} {{phone.model}}</div>
+    <div class='phonedetails__color'>{{phone.color}} </div>
+    <div class='phonedetails__price'>${{phone.price}} </div>
+    <div class='phonedetails__desc'>{{phone.description}} </div>
+  </div>
+</div>
