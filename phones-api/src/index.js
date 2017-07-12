@@ -12,5 +12,5 @@ app.get('/', function(req, res) {
 
 app.use('/api', apiRouter)
 app.listen(3000, function() {
-  //console.log('phones-api started up...')
+  console.log('phones-api started up...')
 })

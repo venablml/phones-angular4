@@ -11,7 +11,6 @@ export class SelectPhoneIdAction implements Action {
 export function selectedPhoneReducer(state: number = null, action: Action) {
   switch (action.type) {
     case SET_SELECTED_PHONE_ID:
-      console.log('Payload = ', action.payload)
       return action.payload
     default:
       return state

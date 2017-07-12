@@ -1,6 +1,6 @@
 import { Component } from '@angular/core'
 import { Phone } from './phone'
-import { PhoneService } from './phone.service'
+import { PhoneService } from './api/phoneService'
 import { OnInit, OnDestroy } from '@angular/core'
 import { ActivatedRoute } from '@angular/router'
 import { Store } from '@ngrx/store'

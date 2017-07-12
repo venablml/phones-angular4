@@ -4,8 +4,7 @@ import { Observable } from 'rxjs/Observable'
 
 import 'rxjs/add/operator/map'
 
-import { PHONES } from './mock-phones'
-import { Phone } from './phone'
+import { Phone } from '../phone'
 
 @Injectable()
 export class PhoneService {

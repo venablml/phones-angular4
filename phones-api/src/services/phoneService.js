@@ -64,7 +64,7 @@ const phoneService = {
       //This is mock data, so we will wait 50ms to pretend that we are making a real request
       setTimeout(() => {
         resolve(phones)
-      }, 50)
+      }, 500)
     })
   }
 }

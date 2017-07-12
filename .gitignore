@@ -1,0 +1,5 @@
+phones-web/dist/
+phones-web/node_modules/
+phones-web/yarn.lock
+yarn.lock
+

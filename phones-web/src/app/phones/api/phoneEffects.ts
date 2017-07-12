@@ -15,7 +15,7 @@ import {
   FETCH_PHONES_FAILURE,
   FetchPhonesSuccessAction
 } from './phonesReducer'
-import { PhoneService } from '../phone.service'
+import { PhoneService } from './phoneService'
 
 @Injectable()
 export class PhoneEffects {
