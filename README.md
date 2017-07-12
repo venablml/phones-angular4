@@ -3,13 +3,15 @@ This sample project consists of a simple express api with one endpoint: /phones 
 
 ## Install dependencies for web application
 After cloning the project, run the following commands to install your dependencies.
+```
 cd phones-web
 npm install
 ng build --prod
+```
 
 ## Running docker-compose
 The api and ui applications are configured to run together using docker-compose. The ui is deployed inside of an nginx container. To run it, just run the following command in the root directory:
-
+```
 docker-compose up
-
-Open your browser to http://localhost:80 to test the app.
+```
+The app will be available at http://localhost:80
